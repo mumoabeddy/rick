@@ -1,0 +1,40 @@
+.fruits{
+    border: solid 3px blue;
+    background-image: url("../images/mangoes.jpeg");
+
+    margin: 20px;
+    padding: 10px;
+    font-family: "Century Schoolbook L";
+
+
+}
+
+.cars{
+    border: #14ec14 solid 3px;
+    background-image: url("../images/car2.jpeg");
+    text-align: center;
+    margin: 50px;
+    padding: 30px;
+
+}
+.kenya{
+    border: red solid 3px;
+    text-align: center;
+    margin: 50px;
+    background-image: url("../images/kenya.jpg");
+}
+.Fruits{
+    border: gold solid 3px;
+    text-align: left;
+    background: #274b7a;
+    }
+#computers{
+    border: solid 3px red;
+    padding: 10px;
+    margin: 10px;
+    background-color: #14ec14;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+}

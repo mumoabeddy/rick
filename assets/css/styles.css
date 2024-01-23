@@ -1,0 +1,29 @@
+table{
+    width: 100%;
+    font-family: "Bitstream Charter";
+    padding: 0px;
+background-image: url("../images/flower2.jpeg");
+
+}
+body{
+    background-image: -o-repeating-radial-gradient(list of students);
+background-size: cover;
+}
+th{
+    color: blue;
+
+    border: #070505 5px block;
+
+}
+
+
+td{
+    color: #070505;
+
+    border: black 5px block;
+}
+h2 {
+    text-align: center;
+    color: darkred;
+    font-size: 40px;
+}

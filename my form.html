@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="assets/css/my%20form%20style.css  ">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>my form</title>
+</head>
+<body>
+<div id="form-container">
+    <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text"id="name"name="name"required>
+    </div>
+    <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email"id="email"name="email"required>
+    </div>
+    <div class="form-group">
+        <label for="pass">Password:</label>
+        <input type="password" id="pass"name="pass"required>
+    </div>
+    <div class="form-group">
+        <label for="gender">Gender:</label>
+        <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="others">Others</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label >Interest:</label>
+        <input type="checkbox"id="intrest1"name="interest1">
+        <label for="intrest1">Reading </label>
+          <input type="checkbox"id="intrest2"name="interest1">
+        <label for="intrest2">Coding </label>
+          <input type="checkbox"id="intrest3"name="interest1">
+        <label for="intrest3">Travelling</label>
+    </div>
+    <div class="form-group">
+        <label >Choose a programing Language:</label>
+        <input type="radio"id="lang1"name="lang1"value="java">
+        <label for="lang1">Java</label>
+        <input type="radio"id="lang2"name="lang2"value="django">
+        <label for="lang2">Django</label>
+        <input type="radio"id="lang3"name="lang3"value="python">
+        <label for="lang3">Python</label>
+        <input type="radio"id="lang4"name="lang4"value="kotlin">
+        <label for="lang4">kOTLIN</label>
+        <input type="radio"id="lang5"name="lang5"value="C++">
+        <label for="lang5">C++</label>
+
+    </div>
+    <div class="form-group">
+        <label for="mesage">Additional Information:</label>
+        <textarea name="mesage" id="mesage" ></textarea>
+    </div>
+    <div class="form-group">
+        <button type="submit">Submit</button>
+    </div>
+</div>
+
+</body>
+</html>
